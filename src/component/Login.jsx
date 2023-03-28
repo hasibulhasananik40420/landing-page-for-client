@@ -1,22 +1,20 @@
-import React from 'react'
+import React, { useState } from 'react'
 import city from '../assets/Citi-logo 1.png'
 import Rectangle from '../assets/Rectangle 1862.png'
-import { BiHide } from 'react-icons/bi'
+import { AiOutlineEye, AiOutlineEyeInvisible } from "react-icons/ai";
 import { Link } from 'react-router-dom'
 
 const Login = () => {
+  const [visible, setVisible] = useState(false);
+
   return (
     <div className='bg-[#F5F5F5] font-Poppins'>
-      <div className=' flex flex-col justify-center items-center h-[100vh] max-w-7xl mx-auto'>
+      <div className=' lg:flex justify-center items-center h-[100vh] max-w-7xl mx-auto'>
 
         <div className='bg-[#FFF8F1] lg:w-3/4 w-full'>
 
-          <div className='lg:flex'>
-            <div className='lg:w-[500px] w-full pl-6 py-6'>
-              <span><img src={city} alt="" /></span>
+          <div className='lg:flex flex-row-reverse'>
 
-              <img className='' src={Rectangle} alt="" />
-            </div>
 
             <div className='bg-white lg:w-[550px] w-full px-6 py-6 rounded'>
               <div className='flex justify-end pr-4 '>
@@ -35,8 +33,20 @@ const Login = () => {
 
                 <div className="mt-4 relative">
                   <label className="block text-[#666666] text-sm  font-medium mb-2">Password</label>
-                  <input className="bg-[#F5F4FF] text-gray-700 rounded focus:outline-none focus:shadow-outline py-[10px] px-4 block w-full appearance-none" type="email" />
-                  <span className='absolute top-10 right-3'><BiHide size={20} /></span>
+                  <input className="bg-[#F5F4FF] text-gray-700 rounded focus:outline-none focus:shadow-outline py-[10px] px-4 block w-full appearance-none" type={visible ? "text" : "password"} />
+                  {visible ? (
+                    <AiOutlineEye
+                      className="absolute top-10 right-3 cursor-pointer"
+                      size={25}
+                      onClick={() => setVisible(false)}
+                    />
+                  ) : (
+                    <AiOutlineEyeInvisible
+                      className="absolute top-10 right-3 cursor-pointer"
+                      size={25}
+                      onClick={() => setVisible(true)}
+                    />
+                  )}
                 </div>
 
                 <div className=''>
@@ -52,6 +62,14 @@ const Login = () => {
               </div>
 
             </div>
+
+            <div className='lg:w-[500px] w-full pl-6 py-6'>
+              <span><img src={city} alt="" /></span>
+
+              <img className='' src={Rectangle} alt="" />
+            </div>
+
+
           </div>
 
         </div>

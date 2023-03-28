@@ -17,12 +17,12 @@ function CreateWallet() {
 
 
                         </div>
-                        <div className='w-full h-full'>
+                        <div className='w-full h-full pt-12 lg:pt-0'>
                             <h2 className='md:text-4xl text-2xl font-extrabold text-gray-700 text-center md:text-left'>Choose and Convert your Wallet Anytime!</h2>
                             <h2 className='text-lg  text-gray-700 my-4 text-center md:text-left'>It’s very easy to get a wallet here. Just sign up and complete the KYC details! Then, it’s just a boom!</h2>
 
 
-                            <button className='px-5 block mx-auto md:mx-0 rounded-md font-bold hover:bg-[#F05830] hover:text-white duration-300 my-3 text-[#F05830] border border-[#F05830] py-3'>Create Your Wallet</button>
+                            <button className='px-5 block mx-auto md:mx-0 rounded-md font-bold hover:bg-[#F05830] hover:text-white duration-300 my-3 text-[#F05830] border border-[#F05830] py-3 mt-12'>Create Your Wallet</button>
                         </div>
                 </div>
         </div>

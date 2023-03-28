@@ -8,8 +8,8 @@ const Navbar = () => {
 
   return (
     <nav>
-      <div className=' w-full fixed top-0 left-0 z-50'>
-        <div className='md:flex items-center justify-between bg-[#FFF8F1] py-4 md:px-20 px-7  '>
+      <div className='w-full fixed top-0 left-0 z-50 bg-[#FFF8F1]'>
+        <div className='md:flex items-center justify-between py-4 md:px-14 px-7  max-w-7xl mx-auto'>
           <div className='flex gap-16'>
           <div className=' font-bold  cursor-pointer  
 text-white'>
@@ -47,7 +47,7 @@ text-white'>
 
 
 
-          <ul onClick={() => setOpen(!open)} className={`md:flex md:items-center md:pb-0 pb-12 absolute md:static  md:bg-[#FFF8F1] bg-orange-600 text-black  md:z-auto z-[-1] left-0 w-full md:w-auto md:pl-0 pl-4 pr-6 transition-all duration-500 ease-in ${open ? 'top-14 ' : 'top-[-490px]'}`}>
+          <ul onClick={() => setOpen(!open)} className={`md:flex md:items-center md:pb-0 pb-12 absolute md:static  md:bg-[#FFF8F1] bg-[#FFF8F1] text-black  md:z-auto z-[-1] left-0 w-full md:w-auto md:pl-0 pl-4 pr-6 transition-all duration-700 ease-in ${open ? 'left-0 ' : 'left-[-420px]'}`}>
 
 
             <li>
