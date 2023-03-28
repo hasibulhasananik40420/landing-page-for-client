@@ -13,6 +13,7 @@ module.exports = {
         'updated-image': "url('/src/assets/updated.png')",
         'header-bg-image': "url('/src/assets/header-bg-left.png')",
         'bg-2': "url('/src/assets/bg-2.png')",
+        'last-bg': "url('/src/assets/lastbg.png')",
         
       }
 

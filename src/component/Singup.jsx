@@ -1,7 +1,6 @@
 import React from 'react'
 import Rectangle from '../assets/Rectangle 1862.png'
 import city from '../assets/Citi-logo 1.png'
-import login from '../assets/Frame 45.png'
 import { BiHide } from 'react-icons/bi'
 import { Link } from 'react-router-dom'
 const Singup = () => {
@@ -19,11 +18,13 @@ const Singup = () => {
             </div>
 
             <div className='bg-white lg:w-[550px] w-full px-6 py-6 rounded'>
-              <span className='flex justify-end pr-2 '><img className='lg:block w-[20px] hidden' src={login} alt="" /></span>
+               <div className='flex justify-end pr-4 '>
+              <Link to='/login'> <h1 className='bg-[#F05830] px-2 py-2 rounded text-white font-semibold w-[100px] text-center cursor-pointer'>Login</h1></Link>
+               </div>
 
               <h1 className='text-[#525252] font-[28px] text-2xl text-center mt-6'>Sign up Your Account</h1>
 
-              <p className='text-[#666666] font-[20px] font-normal mt-6 '>It’s so simple!</p>
+              <p className='text-[#666666] text-[20px] font-normal mt-6 '>It’s so simple!</p>
 
               <div>
 

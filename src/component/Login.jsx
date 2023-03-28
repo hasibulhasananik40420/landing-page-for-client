@@ -1,5 +1,4 @@
 import React from 'react'
-import singup from '../assets/singup.png'
 import city from '../assets/Citi-logo 1.png'
 import Rectangle from '../assets/Rectangle 1862.png'
 import { BiHide } from 'react-icons/bi'
@@ -20,8 +19,9 @@ const Login = () => {
             </div>
 
             <div className='bg-white lg:w-[550px] w-full px-6 py-6 rounded'>
-             <Link to='/singup'> <span className='flex justify-end pr-2 '><img className='lg:block w-[143px] h-[43px] hidden ' src={singup} alt="" /></span></Link>
-
+              <div className='flex justify-end pr-4 '>
+                <Link to='/singup'> <h1 className='bg-[#F05830] px-2 py-2 rounded text-white font-semibold w-[100px] text-center cursor-pointer'>SingUp</h1></Link>
+              </div>
               <h1 className='text-[#525252] font-[28px] text-2xl text-center mt-6'>Log into your Account</h1>
 
               <p className='text-[#666666] font-[20px] font-normal mt-6 '>Log in to Your Account - Use Your Credentials</p>
@@ -39,12 +39,12 @@ const Login = () => {
                   <span className='absolute top-10 right-3'><BiHide size={20} /></span>
                 </div>
 
-                 <div className=''>
-                    <span className='text-[#999999] font-medium flex justify-end mt-5'>forgot password?</span>
-                 </div>
+                <div className=''>
+                  <span className='text-[#999999] font-medium flex justify-end mt-5'>forgot password?</span>
+                </div>
 
 
-               
+
 
 
                 <button className='bg-[#003443] rounded w-full text-white font-semibold text-center py-[10px] mt-8'>Sing In</button>

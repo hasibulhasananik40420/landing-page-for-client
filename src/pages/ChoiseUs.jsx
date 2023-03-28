@@ -24,30 +24,30 @@ const ChoiseUs = () => {
             
              <div className='w-[340px] h-[230px]  flex flex-col justify-center items-center rounded-lg'>
               <span className='h-14 w-14 flex justify-center items-center bg-[#FEEFEB] rounded-lg'> <img src={icon2} alt="" /></span>
-              <h1 className='text-[#0D0D0D] font-[800] text-[20px] mt-3'>Digital Saving</h1>
-              <p className='text-[15px] text-[#807D7D] font-[300] mt-3'>Saving on the way and simple!</p>
+              <h1 className='text-[#0D0D0D] font-[800] text-[20px] mt-3'>Online Investment</h1>
+              <p className='text-[15px] text-[#807D7D] font-[300] mt-3'>Invest small amounts daily digitally</p>
            
             </div>
             
              <div className='w-[340px] h-[230px] flex flex-col justify-center items-center rounded-lg'>
               <span className='h-14 w-14 flex justify-center items-center bg-[#E6FDF6] rounded-lg'> <img src={icon3} alt="" /></span>
-              <h1 className='text-[#0D0D0D] font-[800] text-[20px] mt-3'>Digital Saving</h1>
-              <p className='text-[15px] text-[#807D7D] font-[300] mt-3'>Saving on the way and simple!</p>
+              <h1 className='text-[#0D0D0D] font-[800] text-[20px] mt-3'>Secured Service</h1>
+              <p className='text-[15px] text-[#807D7D] font-[300] mt-3'>Prompt secure services!</p>
            
             </div> <div className='w-[340px] h-[230px] flex flex-col justify-center items-center rounded-lg'>
               <span className='h-14 w-14 flex justify-center items-center bg-[#ECF3F1] rounded-lg'> <img src={icon4} alt="" /></span>
-              <h1 className='text-[#0D0D0D] font-[800] text-[20px] mt-3'>Digital Saving</h1>
-              <p className='text-[15px] text-[#807D7D] font-[300] mt-3'>Saving on the way and simple!</p>
+              <h1 className='text-[#0D0D0D] font-[800] text-[20px] mt-3'>Purchase via Cards</h1>
+              <p className='text-[15px] text-[#807D7D] font-[300] mt-3'>Apply for a virtual card and pay</p>
            
             </div> <div className='w-[340px] h-[230px] flex flex-col justify-center items-center rounded-lg'>
               <span className='h-14 w-14 flex justify-center items-center bg-[#E6FDF6] rounded-lg'> <img src={icon5} alt="" /></span>
-              <h1 className='text-[#0D0D0D] font-[800] text-[20px] mt-3'>Digital Saving</h1>
-              <p className='text-[15px] text-[#807D7D] font-[300] mt-3'>Saving on the way and simple!</p>
+              <h1 className='text-[#0D0D0D] font-[800] text-[20px] mt-3'>Instant transaction</h1>
+              <p className='text-[15px] text-[#807D7D] font-[300] mt-3'>Count your transactions on the go</p>
            
             </div> <div className='w-[340px] h-[230px] flex flex-col justify-center items-center rounded-lg'>
               <span className='h-14 w-14 flex justify-center items-center bg-[#EBF3FE] rounded-lg'> <img src={icon6} alt="" /></span>
-              <h1 className='text-[#0D0D0D] font-[800] text-[20px] mt-3'>Digital Saving</h1>
-              <p className='text-[15px] text-[#807D7D] font-[300] mt-3'>Saving on the way and simple!</p>
+              <h1 className='text-[#0D0D0D] font-[800] text-[20px] mt-3'>Secure and Fast</h1>
+              <p className='text-[15px] text-[#807D7D] font-[300] mt-3'>Superfast secure channels</p>
            
             </div>
          </div>

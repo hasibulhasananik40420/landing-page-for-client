@@ -1,6 +1,5 @@
 import React from 'react'
 import union from '../assets/Union.png'
-import mobile from '../assets/header-mobile.png'
 const Header = () => {
     return (
         <div className='bg-[#FFF8F1] '>
@@ -34,10 +33,9 @@ const Header = () => {
 
                     </div>
 
-                     <div className='bg-header-bg-image bg-cover bg-no-repeat bg-right	 lg:w-[530px] lg:h-[320px] w-full h-full'>
-                        <img className='mt-[-50px] ml-[-70px] lg:w-[450px] lg:h-[450px] w-full h-full' src={mobile} alt="" />
-                        
-                     </div>
+                    <div className='bg-header-bg-image bg-cover bg-no-repeat bg-right	 lg:w-[530px] lg:h-[320px] w-full h-full'>
+
+                    </div>
                 </div>
             </div>
 
