@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import { BiMenuAltLeft, BiUserPlus } from 'react-icons/bi';
 import { AiOutlineClose } from 'react-icons/ai';
 import city from '../assets/Citi-logo 1.png'
+import Login from './Login';
 const Navbar = () => {
   let [open, setOpen] = useState(false);
 
@@ -23,7 +24,7 @@ text-white'>
 
 
 
-          <div className='bg-[#F05830] px-4 py-2  rounded  duration-500 cursor-pointer  font-Poppins text-white lg:hidden '>
+          <div className='bg-[#F05830] px-4 py-2  ml-[-15px]  rounded  duration-500 cursor-pointer  font-Poppins text-white lg:hidden '>
 
             <Link to='/singup'>
               <div className='flex justify-center items-center gap-1 font-medium'><span><BiUserPlus size={25} /></span> <span>Sing Up</span></div>
@@ -57,10 +58,17 @@ text-white'>
             <li>
               <Link to='/' className='  md:ml-8 text-center text-xl cursor-pointer block font-Poppins text-[#0D0D0D] '>How it works
               </Link>
-            </li> <li>
+            </li> 
+            
+            <li>
               <Link to='/' className='  md:ml-8 text-center text-xl cursor-pointer block font-Poppins text-[#0D0D0D] '>Contact
               </Link>
+            </li> 
+            <li>
+              <Link to='/login' className='  md:ml-8 text-center text-xl cursor-pointer block font-Poppins text-[#0D0D0D] '>Login
+              </Link>
             </li>
+             
 
 
           </ul>
