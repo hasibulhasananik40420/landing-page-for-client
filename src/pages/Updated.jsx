@@ -8,7 +8,7 @@ const Updated = () => {
 
              <div className=''>
                 <input className=' pl-5 border border-[#E6EFEC] h-[45px] lg:w-[400px] w-full rounded rounded-r-none outline-none' type="text" placeholder='Email Address'/>
-                 <button className='bg-[#F05830] h-[45px] w-[150px] font-semibold text-white rounded rounded-l-none lg:mt-0 mt-4'>Submit</button>
+                 <button className='bg-[#F05830] h-[45px] w-[150px] font-semibold text-white rounded rounded-l-none lg:mt-0 mt-4 lg:ml-0 ml-32'>Submit</button>
              </div>
 
           </div>
